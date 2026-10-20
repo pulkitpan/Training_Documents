@@ -118,6 +118,7 @@ Pre-requisites:
 				- Debian / Ubuntu 		===>	apt/apt-get package Manager 
 				- Fedora				===>	dnf (Latest Version of Fedora)
 												yum (Previous Version of Fedora)
+               --> Package manager of linux machine based on linux distributions.
 								
 				- Access AWS Account :
 			

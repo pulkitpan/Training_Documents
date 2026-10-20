@@ -108,7 +108,7 @@ Pre-requisites:
 
 		- Basic Linux Commands 
 		
-			Package Manager - apt/yum/dnf ==> can be executed as a root user.
+			Package Manager - It is used to install/uninstall/upgrade the packages in linux apt/yum/dnf ==> can be executed as a root user.
 			
 		- Linux Distributions 
 				

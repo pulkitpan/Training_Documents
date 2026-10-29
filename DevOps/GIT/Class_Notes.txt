@@ -206,7 +206,7 @@ Day - 10 | 27th Oct. 2026
 				
 				git pull = Git Fetch + Git Merge
 				
-		As a best practise, it is always recommended to use git pull to keep the Local Repo in sync with Remote Repo.
+		As a best practice, it is always recommended to use git pull to keep the Local Repo in sync with Remote Repo.
 		
 		
 	

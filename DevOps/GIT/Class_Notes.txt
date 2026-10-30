@@ -288,7 +288,7 @@ Day - 11 | 29th Oct. 2026
 	
 		git init 				# Used to Initialize Local git repository 
 								# Create .GIT! Directory 
-								# Create the default master/main branch 
+								# Create the default master/main branch(logical copy of the repo)
 								
 		git status				# To get the status of the Git Repository
 		
@@ -302,7 +302,10 @@ Day - 11 | 29th Oct. 2026
 	Working Directory		   Staging/Index Area				Local Repository		
 	
 	file1.txt 		 --------> file1.txt  	  		----------> file1.txt 	  
-					  git add 					 	git commit					
+	(Untracked        git add                       git commit
+    files means
+    file in working directory and
+  not able to track the file )				   					 						
 
 	
 	
@@ -338,7 +341,7 @@ Day - 11 | 29th Oct. 2026
 	
 	git ls-files 		# git cli Command ==> To get the list of files that are being tracked by git.
 	
-	HEAD 				# Is is a git pointer - always points to the latest commit of current branch
+	HEAD 				# It is a git pointer - It is always points to the latest commit of current branch
 	
 	
 	

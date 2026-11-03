@@ -1315,7 +1315,7 @@ Day - 14 | 3rd Nov. 2026
 					
 	Merge Conflict ::::
 
-		- When more than one user/feature try to update same file at the same level, merge conflict occurs.
+		- When more than one user/feature try to update same file at the same level(same record), merge conflict occurs.
 
 	How to Fix the Merge Conflicts :::
 	

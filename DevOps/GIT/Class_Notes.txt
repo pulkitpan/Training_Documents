@@ -1316,6 +1316,7 @@ Day - 14 | 3rd Nov. 2026
 	Merge Conflict ::::
 
 		- When more than one user/feature try to update same file at the same level(same record), merge conflict occurs.
+        - It is not possible to keep the changes of more than one user/feature on the same file of the record.
 
 	How to Fix the Merge Conflicts :::
 	
@@ -1349,7 +1350,7 @@ Day - 14 | 3rd Nov. 2026
 			- Rebase is used to keep the current branch in-sync with target branch 
 			- Rebase can prevent merge-conflicts in the target branch 
 			
-			- As a best practise, it is always recommended to use rebase before merge 
+			- As a best practice, it is always recommended to use rebase before merge 
 			
 			
 	Repo1:

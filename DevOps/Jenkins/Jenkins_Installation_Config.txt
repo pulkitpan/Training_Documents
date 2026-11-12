@@ -159,13 +159,28 @@ Login to Jenkins - Manage Jenkins - Attach the Slave Node to jenkins Master
 	- Save the private key of devopsadmin user from slave Node in Jenkins Credential Manager 
 	
 	jenkins_Slave1_Cred
+
 	
-	
-	
-	Goto to Manage Jenkins 
+	Go to to Manage Jenkins 
 		Select Nodes 
 			On Nodes Dashboard, Click on New Node
-				Give Node Name, and choose permanent agent.
+				Give Node Name, and choose permanent agent and click create
+                After that open one node configuration page
+                       Give the number of executors
+                       Write the Remote root directory
+                       Write slave1 as labels
+                       Select usage -->use this node as much as possible
+                       select launch method --> Launch agent via SSH
+                                   Hostname-- Private ip of slavenode
+                                   Credentials--> of slavenode
+                                   Host Key Verification Strategy--> Manually trusted key verification Stragety
+                                   Click on Require manual verification of initial connection?
+                                   select Availability---> keep this agent online as much as possible
+                        click on save
+          Click on newly created node
+          then click on TRUST SSH HOST KEY
+                         Click on yes(it is for one time only)
+                    
 				
 				
 

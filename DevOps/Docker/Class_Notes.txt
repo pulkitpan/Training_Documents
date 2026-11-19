@@ -306,12 +306,16 @@ Day - 25 | 18th Nov. 2026
 	- Remove the Container :::
 	
 		- docker rm <Container_ID>
+   - Remove the multiple container:
+       -docker rm <Container_ID1> <Container_ID2> <Container_ID3>....... <Container_IDn>
 		
 		
 	
 	- Remove the Container Images
 	
-		- docker rmi <Container-Image_ID>	
+		- docker rmi <Container-Image_ID>
+    - Remove the multiple Container images
+       -docker rmi <Container-Image_ID1> <Container-Image_ID2>.......<Container-Image_IDn> 
 		
 		
 	
